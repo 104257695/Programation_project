@@ -41,8 +41,9 @@ void CATGqueue(std::queue<std::string>& orders) {
     std::string order;
 
    
+    std::cin.ignore();
     std::cout << "New order: ";
-    std::cin>> order;
+    std::getline(std::cin, order);
 
     if (!order.empty()) {
         orders.push(order);
