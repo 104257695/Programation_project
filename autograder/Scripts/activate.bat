@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\jgram\projects\helloworld\cs106l-assignments\assign0\autograder
+=======
+set VIRTUAL_ENV=C:\Users\jgram\projects\helloworld\cs106l-assignments\assign2\autograder
+>>>>>>> 9a663b0 (assign 2)
 
 if not defined PROMPT set PROMPT=$P$G
 
