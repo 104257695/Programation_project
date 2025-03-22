@@ -1,0 +1,10 @@
+
+Make a Class
+------------
+
+Q1. What’s const-correctness and why is it important?
+
+It's a keyword used to ensure that certain values, parameters, or functions don't modify data; in other words, it's used to specify which elements are immutable. It's also important because it helps prevent errors, as it makes it clear which parts of the code can change data and which can't.
+
+Q2. Is your class const-correct? How do you know?
+Yes, it is const-correctness since in the class.h code I have defined variables as const ensuring that they do not change.
