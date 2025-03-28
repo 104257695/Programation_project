@@ -99,7 +99,7 @@ int main() {
  
     std::cout << ("---Task 4.2-----") << std::endl;
     constexpr int result = Fibonacci<10>::value;
-    std::cout << result << std::endl; // Should print 55
+    std::cout << result << std::endl; 
 
     return 0;
 }
