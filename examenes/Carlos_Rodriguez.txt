@@ -1,0 +1,10 @@
+The position of a moving object is x(t) = (7+2*t)^3+5*t Determine the instantaneous velocity.;5+6*(7+2*t)^2
+Use the previously obtained velocity to calculate the instantaneous acceleration.;12*t
+Calculate the displacement if it starts from rest until t  = 2 s using the velocity function v(t) = 12*t^2+8 ;30
+If an object has constant acceleration, its velocity changes linearly with time.;True
+What is the SI unit of force? A-meter B-newton C-kilogram D-pascal;B
+The derivative of position with respect to time is force.;false
+If a force of F = 14 N is applied to an object of P = 8 N, what is its acceleration?;17.4
+A particle has acceleration a(t) = 4*t Calculate the velocity starting from rest at t  = 3 s ;18
+The kinetic energy is E(t) = (0.5)*m*(2*t)^2 with P = 7 Calculate the rate of change of kinetic energy at time t  = 8 s ;112
+Given a force F(t) = 6*t^2 acting on a mass m  = 8 find the final velocity starting from rest at t  = 5 s;93.75

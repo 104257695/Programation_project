@@ -1,0 +1,10 @@
+The time rate of change of momentum equals what? A-force B-work C-power D-impulse;A
+The position of a moving object is x(t) = (5+2*t)^3+5*t Determine the instantaneous velocity.;5+6*(5+2*t)^2
+Use the previously obtained velocity to calculate the instantaneous acceleration.;12*t
+Calculate the displacement if it starts from rest until t  = 2 s using the velocity function v(t) = 10*t^2+6 ;22
+If an object has constant acceleration, its velocity changes linearly with time.;T
+The derivative of position with respect to time is force.;f
+If a force of F = 12 N is applied to an object of P = 6 N, what is its acceleration?;19.6
+A particle has acceleration a(t) = 4*t Calculate the velocity starting from rest at t  = 3 min ;18
+The kinetic energy is E(t) = (0.5)*m*(2*t)^2 with P = 5 N Calculate the rate of change of kinetic energy at time t  = 6 s ;60.00
+Given a force F(t) = 6*t^2 acting on a mass m  = 6 find the final velocity starting from rest at t  = 5 s;125.00

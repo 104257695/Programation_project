@@ -1,0 +1,49 @@
+If an object has constant acceleration, its velocity changes linearly with time.;T
+If the net force on an object is zero, the object must be at rest.;F
+The acceleration of an object is the derivative of its velocity with respect to time.;T
+Work is a scalar quantity, even though force and displacement are vectors.;T
+An object moving in a circle at constant speed has zero acceleration.;F
+The area under a velocity-time graph represents displacement.;T
+Momentum is always conserved in any type of collision.;F
+Kinetic energy is always positive or zero.;T
+The derivative of position with respect to time is force.;F
+The unit of acceleration in SI is m/s².;T
+Inertia depends on the mass of an object.;T
+A projectile at the peak of its trajectory has zero velocity.;F
+Power is the rate of doing work.;T
+The normal force is always equal to the weight of an object.;F
+Energy is always conserved in isolated systems.;T
+The direction of acceleration is always the same as the direction of velocity.;F
+The SI unit of momentum is kg·m/s.;T
+Friction always opposes motion.;T
+Centripetal force is a type of net force.;T
+The period of a pendulum depends on its mass.;F
+What is the SI unit of force? A-meter B-newton C-kilogram D-pascal;B
+Which is a scalar? A-velocity B-force C-energy D-acceleration;C
+What is the unit of energy? A-watt B-newton C-joule D-pascal;C
+Velocity can be negative.;T
+Which is NOT a force? A-friction B-gravity C-inertia D-tension;C
+The area under a v-t graph gives displacement.;T
+Weight is mass times gravity.;T
+What is the unit of frequency? A-hertz B-newton C-watt D-joule;A
+Newton's first law defines inertia.;T
+Momentum is conserved in elastic collisions.;T
+Which is a vector? A-time B-mass C-displacement D-energy;C
+The slope of an x-t graph gives velocity.;T
+What is the SI unit of power? A-joule B-watt C-newton D-ohm;B
+Which quantity is conserved in perfectly inelastic collisions? A-kinetic energy B-total momentum C-both D-neither;B
+What does the slope of a v-t graph represent? A-displacement B-acceleration C-force D-energy;B
+Which law relates force to acceleration? A-Newton's 1st B-Newton's 2nd C-Newton's 3rd D-Pascal's;B
+What is the work done by a normal force? A-always positive B-always negative C-depends on angle D-usually zero;D
+Which energy increases with height? A-kinetic B-potential C-thermal D-sound;B
+What is the unit of angular momentum? A-kg·m/s² B-kg·m²/s C-N·m D-J·s;B
+Which force keeps planets in orbit? A-friction B-tension C-gravity D-magnetic;C
+The time rate of change of momentum equals what? A-force B-work C-power D-impulse;A
+Which is not a conservative force? A-gravity B-elastic C-friction D-electrostatic;C
+What remains constant in uniform circular motion? A-velocity B-acceleration C-speed D-force;C
+Which principle explains buoyant forces? A-Pascal's B-Archimedes' C-Bernoulli's D-Coulomb's;B
+The impulse delivered to an object equals its change in what? A-acceleration B-velocity C-momentum D-energy;C
+Which type of energy depends on an object's position? A-kinetic B-potential C-thermal D-radiant;B
+What is the SI unit of electric charge? A-volt B-ohm C-ampere D-coulomb;D
+Which law states F = -kx? A-Hooke's B-Ohm's C-Boyle's D-Snell's;A
+What does the coefficient of friction depend on? A-surface area B-surface materials C-both D-neither;B

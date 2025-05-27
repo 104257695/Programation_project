@@ -1,0 +1,11 @@
+What is the SI unit of force? A-meter B-newton C-kilogram D-pascal;B
+Momentum is conserved in elastic collisions.;t
+The position of a moving object is x(t) = (2+2*t)^3+5*t Determine the instantaneous velocity.;5+6*(2+2*t)^2
+Use the previously obtained velocity to calculate the instantaneous acceleration.;48+48*t
+Calculate the displacement if it starts from rest until t  = 2 s using the velocity function v(t) = 9*t^2+5 ;34
+If an object has constant acceleration, its velocity changes linearly with time.;true
+If a force of F = 10 N is applied to an object of P = 3 N, what is its acceleration?;32.7
+A particle has acceleration a(t) = 4*t Calculate the velocity starting from rest at t  = 3 s ;18
+The kinetic energy is E(t) = (0.5)*m*(3*t)^2 with P = 2 Calculate the rate of change of kinetic energy at time t  = 5 s ;9.2
+Given a force F(t) = 6*t^2 acting on a mass m  = 3 find the final velocity starting from rest at t  = 5 s;83.33
+
