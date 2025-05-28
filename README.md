@@ -4,100 +4,92 @@ This project is a **C++ automated grading system** designed to evaluate student 
 
 ## Features
 
-- Reads student answers from `.txt` files.
-- Compares symbolic math answers using **GiNaC**.
-- Evaluates numeric integrals and derivatives.
-- Validates true/false responses.
-- Displays general and detailed reports.
-- Detects absent students based on a master list.
+- 📄 Reads student answers from `.txt` files.
+- 🧮 Compares symbolic math answers using **GiNaC**.
+- 📐 Evaluates numeric integrals and derivatives.
+- ✅ Validates true/false abd multiple-choice responses.
+- 📊 Displays general and detailed reports.
+- 🚫 Detects absent students based on a master list.
 
 ## Project Structure
 
+```plaintext
 📁 exam-project/
 ├── main.cpp # Entry point and menu interface
-├── funciones.h / funciones.cpp # Core grading and comparison functions
+├── functions.h / functionss.cpp # Core grading and comparison functions
 ├── utils.h / utils.cpp # Utility functions (e.g., input cleaning, parsing)
 ├── examenes/ # Folder with student answer files (.txt)
-├── Estudiantes.txt # List of all expected students
-├── respuestas_correctas.txt # File with the correct answers for each question
-├── notas_estudiantes.txt # Output file with general grades
-
-markdown
-Copiar
-Editar
+├── Students.txt # List of all expected students
+├── correct_answers.txt # File with the correct answers for each question
+├── students_grades.txt # Output file with general grades
+```
 
 ## Dependencies
 
 - **GiNaC** – for symbolic math operations
-- **C++17** – uses `<filesystem>`
+- **CLN** – required by GiNaC.
 
-### Installation (Linux/macOS)
+For details on how to install Ginac you can check this website [Install GiNaC](https://www.ginac.de/ginac.git/?p=ginac.git;a=blob_plain;f=INSTALL)
 
-Make sure you have `g++` and GiNaC installed:
+## Compile and Run code
+
+To ejecute, first you'll need to compile it. Open up a terminal (if you are using VSCode, hit Ctrl+` or go to Terminal > New Terminal at the top). Then make sure that you are in the corrrect directory and run:
+
+### Option 1: Using Makefile
 
 ```bash
-sudo apt install libginac-dev g++ make
-Then compile the project:
+  make
+  ./exam
+```
+The Makefile should be configured to compile main.cpp, functions.cpp, and utils.cpp.
 
-bash
-Copiar
-Editar
-make
-The Makefile should be configured to compile main.cpp, funciones.cpp, and utils.cpp.
+### Option 2:  Manually with g++
+ ```bash
+  g++ -std=c++17 main.cpp functions.cpp utils.cpp -o main -lginac -lcln
+  ./main
 
-How to Use
-Prepare the list of students in Estudiantes.txt (one name per line, without .txt).
+```
+
+## How to Use
+Prepare the list of students in Students.txt (one name per line, without .txt).
 
 Add student answer files to the examenes/ folder (e.g., juan.txt, ana.txt).
 
-Define correct answers in respuestas_correctas.txt using a format like:
+Define the correct answers for T/F and multiple choice questions in correct_answers.txt using a format like:
 
-cpp
-Copiar
-Editar
-¿Qué es la derivada de x^2?::2*x
-Calcule ∫0^1 t^2 dt::0.333
-La aceleración es constante::true
-Run the program:
+``` cpp
+    True/False: The acceleration is constant?;T
+    What is the SI unit of force? A-meter B-newton C-kilogram D-pascal;B
+```
 
-bash
-Copiar
-Editar
-./examen
 Use the menu to view general results, details per student, or course summary.
 
-Example Output
-pgsql
-Copiar
-Editar
---- MENU ---
-1. Show all student scores
-2. View details of a specific student
-3. Show course summary
-4. Exit
-Sample Questions Supported
+
+
+## Sample Questions Supported
+
 Derivatives: d/dt x(t)
 
 Integrals: ∫ₐᵇ f(t) dt
 
-True/False: "The acceleration is constant"::true
+True/False: The acceleration is constant?;T
 
 Kinetic energy problems, variable force with mass, etc.
 
-Notes
+## Notes
 Students' symbolic answers are compared using algebraic simplification.
 
 Numerical answers are compared with a small tolerance.
 
-Absences are detected by checking which students from Estudiantes.txt did not submit a file.
+Absences are detected by checking which students from Students.txt did not submit a file.
 
-Future Improvements
-Add support for multi-language questions and UI (e.g., English/Spanish).
+## Future Improvements
 
-Export results in CSV or Excel format.
+- 🖥️ Add a GUI using Qt or web-based frontend.
+- 📚 Adapt exam logic to support different subjects.
 
-Add a GUI using Qt or web-based frontend.
+## 📄 License
 
-License
-MIT License – use freely with attribution.
+MIT License – you may use, modify, and distribute this software freely. Attribution appreciated.
+
 

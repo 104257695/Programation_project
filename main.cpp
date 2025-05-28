@@ -25,18 +25,18 @@ void showMenu(const std::vector<StudentResult>& results,
 
         if (option == 1) {
             std::cout << "\n== GENERAL REPORT ==\n";
-            std::ofstream report("students_grades.txt");
+            std::ofstream report("students_grades.csv");
             if (!report) {
                 std::cerr << "Could not create the grades file.\n";
                 continue;
             }
-            report << "Grades report by student\n";
+            report << "Name,Score\n";
 
             for (const auto& res : results) {
                 std::string name = fs::path(res.fileName).stem().string();
                 std::cout << "Student: " << name << " - "
                           << "Score: " << res.score << "/" << res.totalQuestions << "\n";
-                report << name << ": " << res.score << "/" << res.totalQuestions << "\n";
+                report << name << "," << res.score  << "\n";
             }
             report.close();
         } else if (option == 2) {
