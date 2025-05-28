@@ -58,7 +58,7 @@ Add student answer files to the examenes/ folder (e.g., juan.txt, ana.txt).
 Define the correct answers for T/F and multiple choice questions in correct_answers.txt using a format like:
 
 ``` cpp
-    True/False: The acceleration is constant?;T
+    The acceleration is constant?;T
     What is the SI unit of force? A-meter B-newton C-kilogram D-pascal;B
 ```
 
